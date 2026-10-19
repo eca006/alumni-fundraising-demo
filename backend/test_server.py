@@ -2,7 +2,7 @@ import sqlite3
 import tempfile
 import unittest
 from pathlib import Path
-from server import initialize, connect, read_summary, add_contact
+from server import initialize, connect, read_summary, add_contact, read_timing
 
 class BackendTests(unittest.TestCase):
     def setUp(self):
@@ -26,6 +26,17 @@ class BackendTests(unittest.TestCase):
         self.conn.execute("UPDATE goals SET start='2027-01-01',end='2027-12-31' WHERE period='2026-2027'")
         self.conn.commit()
         self.assertEqual(read_summary(self.conn,'2026-2027')['received'],0)
+    def test_donation_timing(self):
+        result=read_timing(self.conn)
+        self.assertEqual(result['measured_alumni'],15)
+        self.assertGreater(result['average_days'],0)
+        self.conn.execute("UPDATE goals SET start='2027-01-01',end='2027-12-31' WHERE period='2026-2027'")
+        self.conn.commit()
+        self.assertEqual(read_timing(self.conn,'2026-2027')['measured_alumni'],0)
+        self.assertEqual(read_timing(self.conn,'all')['measured_alumni'],15)
+        self.conn.execute('DELETE FROM contacts WHERE alumnus_id=1')
+        self.conn.commit()
+        self.assertEqual(read_timing(self.conn)['excluded_alumni'],1)
     def test_contact_and_audit_transaction(self):
         payload={'alumnus_id':1,'date':'2026-10-18','type':'Phone','outcome':'Connected','logged_by':'James Carter','notes':'Fictional test'}
         result=add_contact(self.conn,payload)

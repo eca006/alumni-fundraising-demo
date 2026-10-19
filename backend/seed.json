@@ -390,6 +390,126 @@
       "outcome": "Connected",
       "by": "James Carter",
       "notes": "Discussed alumni involvement and thanked them for their support."
+    },
+    {
+      "alumnus": 1,
+      "date": "2026-02-15",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "Sarah Miller",
+      "notes": "Fictional initial outreach for the donation-timing demonstration."
+    },
+    {
+      "alumnus": 2,
+      "date": "2026-07-17",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "Sarah Miller",
+      "notes": "Fictional initial outreach for the donation-timing demonstration."
+    },
+    {
+      "alumnus": 3,
+      "date": "2026-09-13",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "James Carter",
+      "notes": "Fictional initial outreach for the donation-timing demonstration."
+    },
+    {
+      "alumnus": 4,
+      "date": "2026-01-31",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "Sarah Miller",
+      "notes": "Fictional initial outreach for the donation-timing demonstration."
+    },
+    {
+      "alumnus": 5,
+      "date": "2026-06-28",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "James Carter",
+      "notes": "Fictional initial outreach for the donation-timing demonstration."
+    },
+    {
+      "alumnus": 6,
+      "date": "2026-08-15",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "Sarah Miller",
+      "notes": "Fictional initial outreach for the donation-timing demonstration."
+    },
+    {
+      "alumnus": 7,
+      "date": "2026-02-07",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "James Carter",
+      "notes": "Fictional initial outreach for the donation-timing demonstration."
+    },
+    {
+      "alumnus": 8,
+      "date": "2026-02-08",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "Sarah Miller",
+      "notes": "Fictional initial outreach for the donation-timing demonstration."
+    },
+    {
+      "alumnus": 9,
+      "date": "2026-04-21",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "James Carter",
+      "notes": "Fictional initial outreach for the donation-timing demonstration."
+    },
+    {
+      "alumnus": 10,
+      "date": "2026-05-01",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "Sarah Miller",
+      "notes": "Fictional initial outreach for the donation-timing demonstration."
+    },
+    {
+      "alumnus": 11,
+      "date": "2026-05-17",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "James Carter",
+      "notes": "Fictional initial outreach for the donation-timing demonstration."
+    },
+    {
+      "alumnus": 12,
+      "date": "2026-07-13",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "Sarah Miller",
+      "notes": "Fictional initial outreach for the donation-timing demonstration."
+    },
+    {
+      "alumnus": 13,
+      "date": "2026-07-09",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "James Carter",
+      "notes": "Fictional initial outreach for the donation-timing demonstration."
+    },
+    {
+      "alumnus": 14,
+      "date": "2026-02-22",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "Sarah Miller",
+      "notes": "Fictional initial outreach for the donation-timing demonstration."
+    },
+    {
+      "alumnus": 15,
+      "date": "2026-03-05",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "James Carter",
+      "notes": "Fictional initial outreach for the donation-timing demonstration."
     }
   ],
   "tasks": [
@@ -743,6 +863,7 @@
     }
   ],
   "demoDonorsExpanded": true,
+  "timingDemoHistoryAdded": true,
   "goal": {
     "amount": 100000,
     "start": "2026-01-01",

@@ -68,6 +68,31 @@ def read_summary(conn,period='all',staff=None):
             'request_outcomes':outcomes,'acceptance_rate':outcomes.get('Accepted',0)/decided if decided else None,
             'contacts':dict(contacts),'connection_rate':contacts['connected']/contacts['entries'] if contacts['entries'] else None}
 
+def read_timing(conn,period='all',staff=None):
+    bounds=None
+    if period!='all':
+        bounds=conn.execute('SELECT start,end FROM goals WHERE period=?',(period,)).fetchone()
+        if not bounds:
+            raise ValueError('Unknown goal period')
+    if staff and not conn.execute('SELECT 1 FROM staff WHERE name=?',(staff,)).fetchone():
+        raise ValueError('Unknown fundraiser')
+    firsts=conn.execute("""WITH ranked AS (
+       SELECT *,ROW_NUMBER() OVER(PARTITION BY alumnus_id ORDER BY date,id) AS rn
+       FROM gifts WHERE kind='Payment')
+       SELECT r.alumnus_id,a.name,r.date first_payment,r.credited_to,
+          (SELECT MIN(c.date) FROM contacts c WHERE c.alumnus_id=r.alumnus_id AND c.date<=r.date) first_contact
+       FROM ranked r JOIN alumni a ON a.id=r.alumnus_id WHERE rn=1 ORDER BY a.name""").fetchall()
+    records=[]
+    for row in firsts:
+        item=dict(row)
+        if bounds and not(bounds['start']<=item['first_payment']<=bounds['end']):continue
+        if staff and item['credited_to']!=staff:continue
+        item['days']=(date.fromisoformat(item['first_payment'])-date.fromisoformat(item['first_contact'])).days if item['first_contact'] else None
+        records.append(item)
+    measured=[r['days'] for r in records if r['days'] is not None]
+    return {'average_days':sum(measured)/len(measured) if measured else None,
+            'measured_alumni':len(measured),'excluded_alumni':len(records)-len(measured),'records':records}
+
 def add_contact(conn,data):
     required=['alumnus_id','date','type','outcome','logged_by']
     if not isinstance(data,dict) or any(not data.get(k) for k in required):
@@ -105,6 +130,8 @@ class Handler(BaseHTTPRequestHandler):
         try:
             if parsed.path=='/api/summary':
                 self.send_json(read_summary(conn,params.get('period',['all'])[0],params.get('staff',[None])[0]))
+            elif parsed.path=='/api/donation-timing':
+                self.send_json(read_timing(conn,params.get('period',['all'])[0],params.get('staff',[None])[0]))
             elif parsed.path=='/api/health':
                 self.send_json({'status':'ok','storage':'SQLite','mode':'local fictional-data demo'})
             else:

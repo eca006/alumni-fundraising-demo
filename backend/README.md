@@ -35,3 +35,5 @@ The write validates inputs, checks foreign keys, and creates an audit record in 
 This is not production authentication or a deployment-ready university system. The API does not enforce real staff roles. It stays local, rejects cross-origin browser writes, and must use fictional data only. A production service needs identity, role checks, secure shared hosting, migrations, backups, monitoring, and a privacy-reviewed data model.
 
 Run the backend checks with `python3 -m unittest discover -s backend -p "test_*.py"`. They verify totals, admin date filters, foreign keys, and transactional audit writes.
+
+Donation timing: `GET /api/donation-timing?period=all` (also accepts goal period and staff filters). It measures earliest logged contact to the first-ever payment, excludes missing prior contacts, and returns the average plus per-alumnus dates/days. Sample outreach history is fictional. The period filter applies to first payment, not contact date.
