@@ -1,1 +1,4 @@
 .DS_Store
+
+backend/*.sqlite3
+backend/__pycache__/

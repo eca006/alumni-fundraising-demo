@@ -1,0 +1,802 @@
+{
+  "alumni": [
+    {
+      "id": 1,
+      "name": "Jordan Lee",
+      "year": "2008",
+      "program": "Business",
+      "city": "Fayetteville, AR",
+      "email": "jordan@example.com",
+      "phone": "(555) 010-0123",
+      "owner": "James Carter",
+      "origin": "Sarah Miller",
+      "stage": "Building relationship",
+      "interest": "Scholarships, student mentorship",
+      "source": "Alumni referral",
+      "referrer": "Taylor Smith",
+      "pref": "Email",
+      "permission": "Active",
+      "added": "2026-02-10",
+      "college": "Sam M. Walton College of Business"
+    },
+    {
+      "id": 2,
+      "name": "Taylor Smith",
+      "year": "2012",
+      "program": "Engineering",
+      "city": "Little Rock, AR",
+      "email": "taylor@example.com",
+      "owner": "Sarah Miller",
+      "origin": "Sarah Miller",
+      "stage": "Donation requested",
+      "interest": "Engineering scholarships",
+      "source": "Alumni event",
+      "pref": "Email",
+      "permission": "Active",
+      "added": "2026-04-15",
+      "college": "College of Engineering"
+    },
+    {
+      "id": 3,
+      "name": "Morgan Davis",
+      "year": "2015",
+      "program": "Education",
+      "city": "Dallas, TX",
+      "email": "morgan@example.com",
+      "owner": "James Carter",
+      "origin": "James Carter",
+      "stage": "New prospect",
+      "interest": "Student opportunity",
+      "source": "Alumni referral",
+      "referrer": "Jordan Lee",
+      "pref": "Phone",
+      "permission": "Active",
+      "added": "2026-09-12",
+      "college": "College of Education and Health Professions"
+    },
+    {
+      "id": 4,
+      "name": "Alex Brooks",
+      "year": "1999",
+      "program": "Agriculture",
+      "city": "Bentonville, AR",
+      "email": "alex@example.com",
+      "owner": "Sarah Miller",
+      "origin": "Sarah Miller",
+      "stage": "Donated",
+      "interest": "Agricultural research",
+      "source": "Staff outreach",
+      "pref": "Email",
+      "permission": "Active",
+      "added": "2025-11-01",
+      "college": "Dale Bumpers College of Agricultural, Food and Life Sciences"
+    },
+    {
+      "id": 5,
+      "name": "Avery Johnson",
+      "year": "2006",
+      "program": "Accounting",
+      "city": "Bentonville, AR",
+      "college": "Sam M. Walton College of Business",
+      "email": "avery.johnson@example.com",
+      "phone": "(555) 010-1205",
+      "owner": "James Carter",
+      "origin": "James Carter",
+      "stage": "Donated",
+      "interest": "Student scholarships",
+      "source": "Alumni event",
+      "pref": "Email",
+      "permission": "Active",
+      "added": "2026-02-05"
+    },
+    {
+      "id": 6,
+      "name": "Cameron Reed",
+      "year": "2010",
+      "program": "Civil Engineering",
+      "city": "Rogers, AR",
+      "college": "College of Engineering",
+      "email": "cameron.reed@example.com",
+      "phone": "(555) 010-1206",
+      "owner": "Sarah Miller",
+      "origin": "Sarah Miller",
+      "stage": "Donated",
+      "interest": "University programs",
+      "source": "Staff referral",
+      "pref": "Email",
+      "permission": "Active",
+      "added": "2026-02-06"
+    },
+    {
+      "id": 7,
+      "name": "Riley Thompson",
+      "year": "2014",
+      "program": "Nursing",
+      "city": "Little Rock, AR",
+      "college": "College of Education and Health Professions",
+      "email": "riley.thompson@example.com",
+      "phone": "(555) 010-1207",
+      "owner": "James Carter",
+      "origin": "James Carter",
+      "stage": "Donated",
+      "interest": "Student scholarships",
+      "source": "Alumni event",
+      "pref": "Email",
+      "permission": "Active",
+      "added": "2026-02-07"
+    },
+    {
+      "id": 8,
+      "name": "Parker Williams",
+      "year": "1998",
+      "program": "Architecture",
+      "city": "Tulsa, OK",
+      "college": "Fay Jones School of Architecture and Design",
+      "email": "parker.williams@example.com",
+      "phone": "(555) 010-1208",
+      "owner": "Sarah Miller",
+      "origin": "Sarah Miller",
+      "stage": "Donated",
+      "interest": "University programs",
+      "source": "Alumni event",
+      "pref": "Email",
+      "permission": "Active",
+      "added": "2026-02-08"
+    },
+    {
+      "id": 9,
+      "name": "Casey Martinez",
+      "year": "2016",
+      "program": "Biology",
+      "city": "Fayetteville, AR",
+      "college": "Fulbright College of Arts and Sciences",
+      "email": "casey.martinez@example.com",
+      "phone": "(555) 010-1209",
+      "owner": "James Carter",
+      "origin": "James Carter",
+      "stage": "Donated",
+      "interest": "Student scholarships",
+      "source": "Staff referral",
+      "pref": "Email",
+      "permission": "Active",
+      "added": "2026-02-09"
+    },
+    {
+      "id": 10,
+      "name": "Drew Anderson",
+      "year": "2003",
+      "program": "Agricultural Economics",
+      "city": "Jonesboro, AR",
+      "college": "Dale Bumpers College of Agricultural, Food and Life Sciences",
+      "email": "drew.anderson@example.com",
+      "phone": "(555) 010-1210",
+      "owner": "Sarah Miller",
+      "origin": "Sarah Miller",
+      "stage": "Donated",
+      "interest": "University programs",
+      "source": "Alumni event",
+      "pref": "Email",
+      "permission": "Active",
+      "added": "2026-02-10"
+    },
+    {
+      "id": 11,
+      "name": "Quinn Robinson",
+      "year": "2011",
+      "program": "Finance",
+      "city": "Dallas, TX",
+      "college": "Sam M. Walton College of Business",
+      "email": "quinn.robinson@example.com",
+      "phone": "(555) 010-1211",
+      "owner": "James Carter",
+      "origin": "James Carter",
+      "stage": "Donated",
+      "interest": "Student scholarships",
+      "source": "Alumni event",
+      "pref": "Email",
+      "permission": "Active",
+      "added": "2026-02-11"
+    },
+    {
+      "id": 12,
+      "name": "Reese Walker",
+      "year": "2018",
+      "program": "Computer Science",
+      "city": "Austin, TX",
+      "college": "College of Engineering",
+      "email": "reese.walker@example.com",
+      "phone": "(555) 010-1212",
+      "owner": "Sarah Miller",
+      "origin": "Sarah Miller",
+      "stage": "Donated",
+      "interest": "University programs",
+      "source": "Staff referral",
+      "pref": "Email",
+      "permission": "Active",
+      "added": "2026-02-12"
+    },
+    {
+      "id": 13,
+      "name": "Skyler Hall",
+      "year": "2001",
+      "program": "Law",
+      "city": "Fort Smith, AR",
+      "college": "School of Law",
+      "email": "skyler.hall@example.com",
+      "phone": "(555) 010-1213",
+      "owner": "James Carter",
+      "origin": "James Carter",
+      "stage": "Donated",
+      "interest": "Student scholarships",
+      "source": "Alumni event",
+      "pref": "Email",
+      "permission": "Active",
+      "added": "2026-02-13"
+    },
+    {
+      "id": 14,
+      "name": "Jamie Allen",
+      "year": "2009",
+      "program": "History",
+      "city": "Conway, AR",
+      "college": "Fulbright College of Arts and Sciences",
+      "email": "jamie.allen@example.com",
+      "phone": "(555) 010-1214",
+      "owner": "Sarah Miller",
+      "origin": "Sarah Miller",
+      "stage": "Donated",
+      "interest": "University programs",
+      "source": "Alumni event",
+      "pref": "Email",
+      "permission": "Active",
+      "added": "2026-02-14"
+    },
+    {
+      "id": 15,
+      "name": "Rowan Young",
+      "year": "2013",
+      "program": "Education",
+      "city": "Springdale, AR",
+      "college": "College of Education and Health Professions",
+      "email": "rowan.young@example.com",
+      "phone": "(555) 010-1215",
+      "owner": "James Carter",
+      "origin": "James Carter",
+      "stage": "Donated",
+      "interest": "Student scholarships",
+      "source": "Staff referral",
+      "pref": "Email",
+      "permission": "Active",
+      "added": "2026-02-15"
+    }
+  ],
+  "contacts": [
+    {
+      "alumnus": 1,
+      "date": "2026-10-15",
+      "type": "Phone",
+      "outcome": "Connected",
+      "by": "James Carter",
+      "notes": "Discussed interest in student mentorship."
+    },
+    {
+      "alumnus": 1,
+      "date": "2026-10-10",
+      "type": "Email",
+      "outcome": "Attempted—no response",
+      "by": "Sarah Miller",
+      "notes": "Introduced Jordan to the scholarship program."
+    },
+    {
+      "alumnus": 2,
+      "date": "2026-10-16",
+      "type": "Meeting",
+      "outcome": "Meeting held",
+      "by": "Sarah Miller",
+      "notes": "Discussed engineering student support."
+    },
+    {
+      "alumnus": 4,
+      "date": "2026-10-08",
+      "type": "Phone",
+      "outcome": "Connected",
+      "by": "Sarah Miller",
+      "notes": "Thanked Alex for supporting university research."
+    },
+    {
+      "alumnus": 5,
+      "date": "2026-10-10",
+      "type": "Phone",
+      "outcome": "Connected",
+      "by": "James Carter",
+      "notes": "Discussed alumni involvement and thanked them for their support."
+    },
+    {
+      "alumnus": 6,
+      "date": "2026-10-11",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "Sarah Miller",
+      "notes": "Discussed alumni involvement and thanked them for their support."
+    },
+    {
+      "alumnus": 7,
+      "date": "2026-10-12",
+      "type": "Phone",
+      "outcome": "Connected",
+      "by": "James Carter",
+      "notes": "Discussed alumni involvement and thanked them for their support."
+    },
+    {
+      "alumnus": 8,
+      "date": "2026-10-13",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "Sarah Miller",
+      "notes": "Discussed alumni involvement and thanked them for their support."
+    },
+    {
+      "alumnus": 9,
+      "date": "2026-10-14",
+      "type": "Phone",
+      "outcome": "Connected",
+      "by": "James Carter",
+      "notes": "Discussed alumni involvement and thanked them for their support."
+    },
+    {
+      "alumnus": 10,
+      "date": "2026-10-15",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "Sarah Miller",
+      "notes": "Discussed alumni involvement and thanked them for their support."
+    },
+    {
+      "alumnus": 11,
+      "date": "2026-10-16",
+      "type": "Phone",
+      "outcome": "Connected",
+      "by": "James Carter",
+      "notes": "Discussed alumni involvement and thanked them for their support."
+    },
+    {
+      "alumnus": 12,
+      "date": "2026-10-05",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "Sarah Miller",
+      "notes": "Discussed alumni involvement and thanked them for their support."
+    },
+    {
+      "alumnus": 13,
+      "date": "2026-10-06",
+      "type": "Phone",
+      "outcome": "Connected",
+      "by": "James Carter",
+      "notes": "Discussed alumni involvement and thanked them for their support."
+    },
+    {
+      "alumnus": 14,
+      "date": "2026-10-07",
+      "type": "Email",
+      "outcome": "Connected",
+      "by": "Sarah Miller",
+      "notes": "Discussed alumni involvement and thanked them for their support."
+    },
+    {
+      "alumnus": 15,
+      "date": "2026-10-08",
+      "type": "Phone",
+      "outcome": "Connected",
+      "by": "James Carter",
+      "notes": "Discussed alumni involvement and thanked them for their support."
+    }
+  ],
+  "tasks": [
+    {
+      "alumnus": 1,
+      "action": "Schedule a campus meeting",
+      "due": "2026-10-25",
+      "by": "James Carter"
+    },
+    {
+      "alumnus": 3,
+      "action": "Ask Jordan for an introduction",
+      "due": "2026-10-16",
+      "by": "James Carter"
+    },
+    {
+      "alumnus": 2,
+      "action": "Follow up on the proposal",
+      "due": "2026-10-20",
+      "by": "Sarah Miller"
+    },
+    {
+      "alumnus": 6,
+      "action": "Follow up on alumni involvement",
+      "due": "2026-10-26",
+      "by": "Sarah Miller"
+    },
+    {
+      "alumnus": 9,
+      "action": "Follow up on alumni involvement",
+      "due": "2026-10-21",
+      "by": "James Carter"
+    },
+    {
+      "alumnus": 12,
+      "action": "Follow up on alumni involvement",
+      "due": "2026-10-24",
+      "by": "Sarah Miller"
+    },
+    {
+      "alumnus": 15,
+      "action": "Follow up on alumni involvement",
+      "due": "2026-10-27",
+      "by": "James Carter"
+    }
+  ],
+  "gifts": [
+    {
+      "alumnus": 1,
+      "kind": "Request",
+      "amount": 15000,
+      "date": "2026-10-15",
+      "by": "James Carter",
+      "status": "Pending",
+      "purpose": "Scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 4,
+      "kind": "Request",
+      "amount": 25000,
+      "date": "2026-04-01",
+      "by": "Sarah Miller",
+      "status": "Accepted",
+      "purpose": "Research",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 4,
+      "kind": "Pledge",
+      "amount": 25000,
+      "date": "2026-04-01",
+      "by": "Sarah Miller",
+      "purpose": "Research",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 4,
+      "kind": "Payment",
+      "amount": 15000,
+      "date": "2026-05-01",
+      "by": "Sarah Miller",
+      "purpose": "Research",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 1,
+      "kind": "Request",
+      "amount": 5000,
+      "date": "2026-02-15",
+      "by": "James Carter",
+      "status": "Accepted",
+      "purpose": "Scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 1,
+      "kind": "Pledge",
+      "amount": 5000,
+      "date": "2026-02-15",
+      "by": "James Carter",
+      "purpose": "Scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 1,
+      "kind": "Payment",
+      "amount": 5000,
+      "date": "2026-03-01",
+      "by": "James Carter",
+      "purpose": "Scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 5,
+      "kind": "Request",
+      "amount": 8000,
+      "date": "2026-08-12",
+      "by": "James Carter",
+      "status": "Accepted",
+      "purpose": "Student scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 5,
+      "kind": "Payment",
+      "amount": 8000,
+      "date": "2026-08-12",
+      "by": "James Carter",
+      "purpose": "Student scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 6,
+      "kind": "Request",
+      "amount": 6500,
+      "date": "2026-09-12",
+      "by": "Sarah Miller",
+      "status": "Accepted",
+      "purpose": "University programs",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 6,
+      "kind": "Payment",
+      "amount": 6500,
+      "date": "2026-09-12",
+      "by": "Sarah Miller",
+      "purpose": "University programs",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 7,
+      "kind": "Request",
+      "amount": 4200,
+      "date": "2026-03-12",
+      "by": "James Carter",
+      "status": "Accepted",
+      "purpose": "Student scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 7,
+      "kind": "Payment",
+      "amount": 4200,
+      "date": "2026-03-12",
+      "by": "James Carter",
+      "purpose": "Student scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 8,
+      "kind": "Request",
+      "amount": 9500,
+      "date": "2026-04-12",
+      "by": "Sarah Miller",
+      "status": "Accepted",
+      "purpose": "University programs",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 8,
+      "kind": "Payment",
+      "amount": 9500,
+      "date": "2026-04-12",
+      "by": "Sarah Miller",
+      "purpose": "University programs",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 9,
+      "kind": "Request",
+      "amount": 2500,
+      "date": "2026-05-12",
+      "by": "James Carter",
+      "status": "Accepted",
+      "purpose": "Student scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 9,
+      "kind": "Payment",
+      "amount": 2500,
+      "date": "2026-05-12",
+      "by": "James Carter",
+      "purpose": "Student scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 10,
+      "kind": "Request",
+      "amount": 5500,
+      "date": "2026-06-12",
+      "by": "Sarah Miller",
+      "status": "Accepted",
+      "purpose": "University programs",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 10,
+      "kind": "Payment",
+      "amount": 5500,
+      "date": "2026-06-12",
+      "by": "Sarah Miller",
+      "purpose": "University programs",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 11,
+      "kind": "Request",
+      "amount": 7000,
+      "date": "2026-07-12",
+      "by": "James Carter",
+      "status": "Accepted",
+      "purpose": "Student scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 11,
+      "kind": "Payment",
+      "amount": 7000,
+      "date": "2026-07-12",
+      "by": "James Carter",
+      "purpose": "Student scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 12,
+      "kind": "Request",
+      "amount": 3200,
+      "date": "2026-08-12",
+      "by": "Sarah Miller",
+      "status": "Accepted",
+      "purpose": "University programs",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 12,
+      "kind": "Payment",
+      "amount": 3200,
+      "date": "2026-08-12",
+      "by": "Sarah Miller",
+      "purpose": "University programs",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 13,
+      "kind": "Request",
+      "amount": 6000,
+      "date": "2026-09-12",
+      "by": "James Carter",
+      "status": "Accepted",
+      "purpose": "Student scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 13,
+      "kind": "Payment",
+      "amount": 6000,
+      "date": "2026-09-12",
+      "by": "James Carter",
+      "purpose": "Student scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 14,
+      "kind": "Request",
+      "amount": 1800,
+      "date": "2026-03-12",
+      "by": "Sarah Miller",
+      "status": "Accepted",
+      "purpose": "University programs",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 14,
+      "kind": "Payment",
+      "amount": 1800,
+      "date": "2026-03-12",
+      "by": "Sarah Miller",
+      "purpose": "University programs",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 15,
+      "kind": "Request",
+      "amount": 3800,
+      "date": "2026-04-12",
+      "by": "James Carter",
+      "status": "Accepted",
+      "purpose": "Student scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 15,
+      "kind": "Payment",
+      "amount": 3800,
+      "date": "2026-04-12",
+      "by": "James Carter",
+      "purpose": "Student scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 2,
+      "kind": "Payment",
+      "amount": 1200,
+      "date": "2026-09-15",
+      "by": "Sarah Miller",
+      "purpose": "Student scholarships",
+      "frequency": "One-time"
+    },
+    {
+      "alumnus": 3,
+      "kind": "Payment",
+      "amount": 750,
+      "date": "2026-09-15",
+      "by": "James Carter",
+      "purpose": "Student scholarships",
+      "frequency": "One-time"
+    }
+  ],
+  "refs": [
+    {
+      "from": 1,
+      "to": 3,
+      "name": "Morgan Davis",
+      "status": "Awaiting introduction",
+      "by": "James Carter",
+      "reason": "Interested in supporting future teachers.",
+      "due": "2026-10-22"
+    }
+  ],
+  "demoDonorsExpanded": true,
+  "goal": {
+    "amount": 100000,
+    "start": "2026-01-01",
+    "end": "2027-12-31"
+  },
+  "goals": {
+    "2025-2026": {
+      "amount": 100000,
+      "start": "2025-08-04",
+      "end": "2026-08-02"
+    },
+    "2026-2027": {
+      "amount": 100000,
+      "start": "2026-01-01",
+      "end": "2027-12-31"
+    }
+  },
+  "period2025DatesUpdated": true,
+  "events": [
+    {
+      "id": 101,
+      "title": "Alumni Tailgate & Connection",
+      "type": "Tailgate",
+      "date": "2026-11-07",
+      "time": "11:00",
+      "endTime": "14:00",
+      "location": "Fayetteville · Demo campus gathering space",
+      "host": "James Carter",
+      "description": "A casual afternoon for alumni, friends, and fundraising staff to reconnect. Fictional event; not an official university schedule.",
+      "status": "Scheduled"
+    },
+    {
+      "id": 102,
+      "title": "Scholarship Celebration Gala",
+      "type": "Gala",
+      "date": "2026-12-05",
+      "time": "18:00",
+      "endTime": "21:00",
+      "location": "Fayetteville · Demo banquet venue",
+      "host": "Sarah Miller",
+      "description": "An evening celebrating alumni support and student opportunity. Fictional event for this demonstration.",
+      "status": "Scheduled"
+    },
+    {
+      "id": 103,
+      "title": "Little Rock Alumni Meetup",
+      "type": "Alumni meetup",
+      "date": "2027-01-21",
+      "time": "17:30",
+      "endTime": "19:30",
+      "location": "Little Rock · Demo community venue",
+      "host": "James Carter",
+      "description": "Meet local alumni and learn about opportunities to stay involved. Fictional event for this demonstration.",
+      "status": "Scheduled"
+    }
+  ]
+}

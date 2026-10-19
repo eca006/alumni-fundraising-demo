@@ -18,3 +18,9 @@ Open `index.html` in a browser or host the contents with GitHub Pages. No instal
 All initial alumni names and financial records are fictional. Records entered in the demo are saved only in that browser using local storage. They are not synchronized between visitors. The role switcher simulates staff access; it is not secure authentication. Use fictional data only.
 
 University marks and supplied photography belong to their respective owners. This is an independent internship demonstration, not an official university system.
+
+## Analytics and backend demonstration
+
+Select **Admin** in Preview account, then open **Analytics**. Reports include monthly payments, request outcomes, giving by college/source, contact connection rates, fundraiser comparisons, data-quality checks, and CSV exports. The Backend & data view explains relationships and lets you inspect the browser records.
+
+A working SQLite database and local API example is in [backend/](backend/README.md). This is separate from the static website and is not hosted by GitHub Pages.
